@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 400px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.password-display {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.password-display input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.password-display button {
+  padding: 8px 12px;
+  border: none;
+  background: #2575fc;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.options label {
+  margin-bottom: 5px;
+}
+
+button#generateBtn {
+  padding: 10px 20px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#generateBtn:hover {
+  background: #218838;
+}
